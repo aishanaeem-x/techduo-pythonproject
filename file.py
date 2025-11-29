@@ -1,8 +1,8 @@
 def smart_calculator():
     print("Smart Calculator")
 
-    x = float(input("Enter first number: "))
-    y = float(input("Enter second number: "))
+    x = float(input("Enter First number: "))
+    y = float(input("Enter Second number: "))
 
     print("\nChoose an operation:")
     print("1. Addition")
@@ -22,7 +22,7 @@ def smart_calculator():
         if y != 0:
             print("Result:", x / y)
         else:
-            print("Cannot divide by zero")
+            print("Cannot divide by zero!")
     else:
         print("Invalid choice")
 
